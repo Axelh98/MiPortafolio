@@ -1,200 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/mobile.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/emergentes.css" />
     <!-- I C O N O S -->
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-
-
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <title>Herrera Axel | Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="l-header">
-        <nav class="nav bd-grid">
-            <div>
-                <a href="#" class="nav__logo">Axel</a>
-            </div>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                </ul>
-            </div>
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
-            </div>
-        </nav>
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Herrera Axel | Portfolio</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
     </header>
 
     <main class="i-main">
-        <!----- HOME ----->
-        <section class="home bd-grid" id="home">
-            <div class="home__data">
-                <h1 class="home__title">Hi, <br>I'am <span class="home__title-color">Axel</span> <br>Frontend Developer
-                </h1>
-                <a href="#" class="button" id="button__reveal">Contact</a>
+      <!----- HOME ----->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi, <br />I'am <span class="home__title-color">Axel</span>
+            <br />Frontend Developer
+          </h1>
+          <a href="#" class="button" id="button__reveal">Contact</a>
+        </div>
+
+        <div class="home__social">
+          <a href="https://www.linkedin.com/in/axel-herrera-55b3971b2/" target="_blank" class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/Axelh98" target="_blank" class="home__social-icon"><i class="bx bxl-github"></i></a>
+          <a href="https://www.instagram.com/axellherrera98/" target="_blank" class="home__social-icon"><i class='bx bxl-instagram-alt'></i></a>
+        </div>
+
+        <div class="home__img">
+          <img src="./imagenes/axelito_hermoso.jpeg" alt="" srcset="" />
+        </div>
+      </section>
+
+      <!----- ABOUT ----->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="./imagenes/yo_templo.jpg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">About me</h2>
+            <p class="about__text">
+              I am someone who is enthusiastic about continuous learning and I love technology and programming because there are always things to learn. One of my goals is to be a great Web developer
+
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <p class="skills__text">
+              These are the technologies I know and every day try to improve and deepen more. I hope with the passage of time that more technologies are added to the list
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
             </div>
-
-            <div class="home__social">
-                <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="" class="home__social-icon"><i class='bx bxl-github'></i></a>
-                <a href="" class="home__social-icon"><i class='bx bxl-facebook-circle'></i></a>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
             </div>
-
-
-            <div class="home__img">
-                <img src="./imagenes/axelito_hermoso.jpeg" alt="" srcset="">
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">65%</span>
+              </div>
             </div>
-        </section>
-
-        <!----- ABOUT ----->
-        <section class="about section " id="about">
-            <h2 class="section-title">About</h2>
-
-            <div class="about__container bd-grid">
-                <div class="about__img">
-                    <img src="./imagenes/yo_templo.jpg" alt="">
-                </div>
-                
-                <div>
-                    <h2 class="about__subtitle">I'am Axel</h2>
-                    <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
-                </div>                                   
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-paint skills__icon"></i>
+                <span class="skills__name">UX/UI</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
             </div>
-        </section>
+          </div>
 
-        <!--===== SKILLS =====-->
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
+          <div>
+            <img src="./imagenes/skills.svg" alt="" class="skills__img" />
+          </div>
+        </div>
+      </section>
 
-            <div class="skills__container bd-grid">          
-                <div>
-                    <h2 class="skills__subtitle">Profesional Skills</h2>
-                    <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-html5 skills__icon'></i>
-                            <span class="skills__name">HTML5</span>
-                        </div>
-                        <div class="skills__bar skills__html">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">95%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-css3 skills__icon'></i>
-                            <span class="skills__name">CSS3</span>
-                        </div>
-                        <div class="skills__bar skills__css">
-                            
-                        </div>
-                        <div>
-                            <span class="skills__percentage">85%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-javascript skills__icon' ></i>
-                            <span class="skills__name">JAVASCRIPT</span>
-                        </div>
-                        <div class="skills__bar skills__js">
-                            
-                        </div>
-                        <div>
-                            <span class="skills__percentage">65%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxs-paint skills__icon'></i>
-                            <span class="skills__name">UX/UI</span>
-                        </div>
-                        <div class="skills__bar skills__ux">
-                            
-                        </div>
-                        <div>
-                            <span class="skills__percentage">85%</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div>              
-                    <img src="./imagenes/skills.svg" alt="" class="skills__img">
-                </div>
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Work and Projects</h2>
+        <!-- === VENTANAS EMERGENTES === -->
+        <div class="ventana__emergente" id="modal1">
+          <div class="ventana__contenido">
+            <span class="close"><img src="./imagenes/marca-x.png" alt=""></span>
+            <h2>SEI Sudamerica Sur</h3>
+            <p>
+              I built this website for a religious institution in their Education department for which I work as an Administrative Assistant. The website was built to put stories of miracles, news, training videos which I recorded and uploaded to the youtube channel, materials such as books uploaded in PDF, etc. I gave maintenance to this website for 6 months.
+ <br>Technologies used:
+               <span>Wordpress - Elementor - HTML5 - CSS - JAVASCRIPT</span>
+            </p><br>
+            <a href="https://seisudamericasur.org/">Go to the Web site</a>
+          </div>
+        </div>
+        <!-- === MODAL 2 === -->
+        <div class="ventana__emergente" id="modal_2">
+            <div class="ventana__contenido">
+              <span class="close"><img src="./imagenes/marca-x.png" alt=""></span>
+              <h2>SEI Sudamerica Sur</h3>
+              <p>
+                I built this website for a religious institution in their Education department for which I work as an Administrative Assistant. The website was built to put stories of miracles, news, training videos which I recorded and uploaded to the youtube channel, materials such as books uploaded in PDF, etc. I gave maintenance to this website for 6 months.
+ <br>Technologies used:
+               <span>Wordpress - Elementor - HTML5 - CSS - JAVASCRIPT</span>
+              </p><br>
+              <a href="https://seisudamericasur.org/">Go to the Web site</a>
             </div>
-        </section>
+          </div>
+        
+        <div class="work__container bd-grid">
+          <div class="first__work">
+            <img src="./imagenes/seisudamericasur.PNG" alt="" />
+          </div>
+          <!---->
+          <div class="second__work">
+            <a href="#" class="work__img" id="modal_2">
+              <img src="./imagenes/work2.jpg" alt="" />
+            </a>
+          </div>
 
-        <!--===== WORK =====-->
-        <section class="work section" id="work">
-            <h2 class="section-title">Work</h2>
+          <a href="#" class="work__img" id="modal_3">
+            <img src="./imagenes/work3.jpg" alt="" />
+          </a>
+          <a href="#" class="work__img" id="modal_4">
+            <img src="./imagenes/work4.jpg" alt="" />
+          </a>
+          <a href="#" class="work__img">
+            <img src="./imagenes/wrok5.jpg" alt="" />
+          </a>
+          <a href="#" class="work__img">
+            <img src="./imagenes/wrok6.jpg" alt="" />
+          </a>
+          
+        </div>
+      </section>
 
-            <div class="work__container bd-grid">
-                <a href="" class="work__img">
-                    <img src="./imagenes/work1.jpg" alt="">
-                </a>
-                <a href="" class="work__img">
-                    <img src="./imagenes/work2.jpg" alt="">
-                </a>
-                <a href="" class="work__img">
-                    <img src="./imagenes/work3.jpg" alt="">
-                </a>
-                <a href="" class="work__img">
-                    <img src="./imagenes/work4.jpg" alt="">
-                </a>
-                <a href="" class="work__img">
-                    <img src="./imagenes/wrok5.jpg" alt="">
-                </a>
-                <a href="" class="work__img">
-                    <img src="./imagenes/wrok6.jpg" alt="">
-                </a>
-            </div>
-        </section>
+      <!--===== CONTACT =====-->
+      <!-- ==== I Comment this because I don't know backend technology to send a email
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
 
-        <!--===== CONTACT =====-->
-        <section class="contact section" id="contact">
-            <h2 class="section-title">Contact</h2>
-
-            <div class="contact__container bd-grid">
-                <form action="" class="contact__form">
-                    <input type="text" placeholder="Name" class="contact__input">
-                    <input type="mail" placeholder="Email" class="contact__input">
-                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                    <input type="button" value="Enviar" class="contact__button button">
-                </form>
-            </div>
-        </section>
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input
+              type="button"
+              value="Enviar"
+              class="contact__button button"
+            />
+          </form>
+        </div>
+      </section>
+      -->
     </main>
 
     <!--===== FOOTER =====-->
     <footer class="footer">
-        <p class="footer__title">Herrera Axel</p>
-        <div class="footer__social">
-            <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-            <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-            <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-        </div>
-        <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+      <p class="footer__title">Herrera Axel</p>
+      <div class="footer__social">
+        <a href="https://www.facebook.com/axel.herrera.7121" target="_blank" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/axellherrera98/" target="_blank" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/axel-herrera-55b3971b2/" target="_blank" class="footer__icon"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <p class="footer__copy">&#169; Herrera Axel | Portfolio</p>
     </footer>
-
 
     <!-- SCROLL REVEAL -->
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!-- APP JS -->
     <script src="./app/script.js"></script>
-</body>
-
+  </body>
 </html>
