@@ -53,10 +53,27 @@ sr.reveal('.skills__data',{interval:400})
 sr.reveal('.skills__img',{delay:400})
 
 /** SCROLL WORK */
+sr.reveal('.first__work',{interval:250})
 sr.reveal('.work__img',{interval:250})
 
 /** SCROLL CONTACT */
 sr.reveal('.contact__input',{interval:250})
 
+/** VENTANAS EMERGENTES **/ 
+
+const modal = document.querySelector('.ventana__emergente');
+const accionador = document.querySelector('.first__work');
+const span = document.querySelector('.close');
+const contenido = document.querySelector('.ventana__contenido');
+
+/** ABRE LA EMERGENTE **/
+accionador.onclick = function() {
+    modal.style.display = "block";
+}
+
+/** CIERRA LA EMERGENTE**/
+span.onclick = function() {
+    modal.style.display = "none";
+}
 
 
